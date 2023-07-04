@@ -27,7 +27,7 @@ const splitContainer = (parent) => {
      * @param {MouseEvent} e
      */
     const mouseMove = (e) => {
-      container.setAttribute('grid-template-columns', `${e.offsetX}px 14px auto`)
+      container.setAttribute('style', `grid-template-columns: ${e.offsetX}px 14px auto;`)
       console.log(firstSplit)
     };
     container.addEventListener("mousemove", mouseMove);
