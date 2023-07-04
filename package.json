@@ -1,0 +1,11 @@
+{
+  "name": "tabbed-document-ui",
+  "version": "1.0.0",
+  "description": "tabbed-document-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
